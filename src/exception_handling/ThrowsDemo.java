@@ -6,7 +6,7 @@ import java.sql.SQLException;
 public class ThrowsDemo {
     public static void main(String[] args) throws IOException, SQLException {
         ThrowsDemo throwsDemo = new ThrowsDemo();
-        throwsDemo.validate(20);
+        throwsDemo.validate(15);
     }
 
     private void validate(int i) throws IOException,SQLException{
