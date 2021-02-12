@@ -21,7 +21,7 @@ public class SyncDemo {
         Thread t2 = new Thread(new Runnable() {
             @Override
             public void run() {
-                for(int i=1;i<1000;i++){
+                for(int i=1;i<=1000;i++){
                     c.increment();
                 }
             }
